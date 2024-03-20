@@ -1,0 +1,146 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --color_Blue: #3f93f1;
+    --color_Dark1: #1e1e1e;
+    --color_Dark2: #252527;
+    --color_Light1: #ffffff;
+    --color_Light2: #ffffff;
+}
+
+
+.content .header {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    bottom: 50%;
+    position: absolute;
+    left: 30%;
+}
+
+.content p {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    bottom: 40%;
+    position: absolute;
+    left: 38.5%;
+}
+.content .logo {
+    position: fixed;
+    top: 30%; /* Adjust the vertical position of the logo */
+    left: 50%; /* Adjust the horizontal position of the logo */
+    transform: translate(-50%, -50%); /* Center the logo */
+    display: flex;
+    justify-content: center;
+    height: 15rem; /* Increase the height of the logo */
+    width: auto;
+  }
+  .btn {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px,rgba(45, 35, 66, 0.15) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+  }
+  .button-name:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+   }
+   
+  .login-btn {
+    margin-right: 20px;
+  }
+  
+  .btn:hover {
+    background-color: var(--color_Light1);
+    color: var(--color_Blue);
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #883636;
+    color: #fff;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 3.5rem;
+    width: auto;
+    margin-right: -1rem;
+  }
+  
+  .header {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .btn-container {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .btn {
+    background-color: #fff;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #ccc;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fcfcfc;
+    color: rgb(3, 3, 3);
+    padding: 30px;
+    font-weight: bold;
+  }
+  
+  .footer p {
+    text-align: center;
+  }
